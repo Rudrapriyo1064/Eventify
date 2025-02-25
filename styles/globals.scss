@@ -1,0 +1,27 @@
+.bg-cream {
+  background-color: #311B30;
+}
+.text-cream {
+  color: #eee8a9;
+}
+.navbar-brand {
+  margin-left: 20px;
+  color: white !important;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.nav-link {
+  margin-left: 20px;
+  color: white !important;
+  &:hover {
+    color: white !important;
+  }
+}
+.navbar-items {
+  width:100%;
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+// @import "../node_modules/bootstrap/scss/bootstrap.scss";
